@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Brand Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('nike-background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.7);
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 20px;
+            padding: 20px 15px;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #333;
+        }
+
+        .fullscreen-image {
+            background-image: url('nike-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+
+        .text-overlay {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .text-overlay h1 {
+            font-family: "Brush Script MT";
+            font-size: 36px;
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div class="fullscreen-image">
+        <div class="text-overlay">
+            <h1>Nike👟 Just Do It!..</h1>
+        </div>
+    </div>
+</body>
+</html>
